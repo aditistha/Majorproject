@@ -1,18 +1,14 @@
-
 import './App.css';
-import Layout from "./components/Layout/Layout";
-import Dashboard_layout from "./components/Layout/Dashboard_layout"
+import Dashboard_layout from './components/Layout/Dashboard_layout';
+import Layout from './components/Layout/Layout';
 
 function App() {
-  return (
-    <>
-    {/* <Layout/> */}
-    <Dashboard_layout/>
-    
-    
-    </>
-   
-  );
+	return (
+		<>
+			{/* <Layout/> */}
+			<Dashboard_layout />
+		</>
+	);
 }
 
 export default App;

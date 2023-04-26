@@ -1,18 +1,16 @@
-import React from 'react'
-import '../css/Dashboard.css'
-import Sidebar from './Sidebar'
-import Maindashboard from './Maindashboard'
+import React from 'react';
+import '../css/Dashboard.css';
+import Maindashboard from './Maindashboard';
+import Sidebar from './Sidebar';
 function Dashboard() {
-  return (
-    <div className='background'>
-      <div className='glass-bg'>
-        <Sidebar/>
-        <Maindashboard/>
-      </div>
-    </div>
-  )
+	return (
+		<div className='background'>
+			<div className='glass-bg'>
+				<Sidebar />
+				<Maindashboard />
+			</div>
+		</div>
+	);
 }
 
-export default Dashboard
-
-
+export default Dashboard;

@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Menu = () => {
-  return (
-    <div>
-      aditi
-    </div>
-  )
-}
+	return <div>aditi</div>;
+};
 
-export default Menu
+export default Menu;

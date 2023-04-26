@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-.navbar{
-    background-color: #f5d0cc;
+.navbar {
+	background-color: #f5d0cc;
 }
-.nav-link{
-    font-family: 'Roboto', sans-serif;
-    color: black !important;
+.nav-link {
+	font-family: 'Roboto', sans-serif;
+	color: black !important;
 }
-.navbar-brand{
-    margin-left: 50px;
+.navbar-brand {
+	margin-left: 50px;
 }
-.navbar-nav{
-    margin-left: 100px;
+.navbar-nav {
+	margin-left: 100px;
 }
-button .navbar-toggler{
-    border: none;
+button .navbar-toggler {
+	border: none;
 }
