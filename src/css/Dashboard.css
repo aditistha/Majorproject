@@ -13,6 +13,18 @@
     border-radius: 2rem;
     background-color: rgba(255, 255, 255, 0.54);
     overflow: hidden;
-    grid-template-columns: 11rem auto;
+    grid-template-columns: 14rem auto;
     box-shadow: black;
 }
+@media screen and (max-width: 1200px) {
+    .AppGlass{
+      grid-template-columns: 10% 50% auto;
+      overflow-y: scroll;
+    } 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .AppGlass{
+      grid-template-columns: 1fr;
+    } 
+  }

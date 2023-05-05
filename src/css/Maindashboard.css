@@ -1,0 +1,25 @@
+.MainDash{
+    display: flex;
+    flex-direction: column;
+
+}
+h1{
+    margin-top: 30px!important;
+}
+@media screen and (max-width: 1200px) {
+    .MainDash{
+        justify-content:flex-start;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .MainDash{
+        margin-left: 70%;
+        align-items: center;
+    }
+    h1{
+        margin-left: 200%;
+    }
+}
