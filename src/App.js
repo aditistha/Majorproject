@@ -8,11 +8,11 @@ function App() {
   return (
     <>
       
-        <Layout/>
-        {/* <Route path='/admin' element={
+        {/* <Layout/> */}
+       
           <Dashboard_layout />
-        } />
-       */}
+       
+      
 
     </>
 
